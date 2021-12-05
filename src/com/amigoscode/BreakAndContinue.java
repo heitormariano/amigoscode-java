@@ -13,10 +13,10 @@ public class BreakAndContinue {
 //			}
 //			System.out.println(nome);
 //		}
-		
+
 		for (String nome : nomes) {
 			if (nome.startsWith("A")) {
-				continue; 
+				continue;
 			}
 			System.out.println(nome);
 		}

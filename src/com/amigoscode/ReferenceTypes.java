@@ -8,7 +8,7 @@ public class ReferenceTypes {
 		String name = new String("Heitor");
 		System.out.println("Name: " + name);
 		System.out.println("Name modified: " + name.toUpperCase());
-		
+
 		LocalDate now = LocalDate.now();
 		System.out.println("variable: " + now);
 		System.out.println("Month: " + now.getMonth());

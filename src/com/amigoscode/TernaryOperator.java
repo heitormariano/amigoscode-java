@@ -6,8 +6,8 @@ public class TernaryOperator {
 		int age = 25;
 		String msgAdult = "I am an adult";
 		String msgNotAdult = "I am not an adult";
-		
-		String msg =  age >= 18 ? msgAdult : msgNotAdult;
+
+		String msg = age >= 18 ? msgAdult : msgNotAdult;
 		System.out.println(msg);
 	}
 }
